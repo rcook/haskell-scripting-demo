@@ -17,8 +17,13 @@ bin/hello-world
 bin/goodbye
 ```
 
+## Notes
+
+Native support in Haskell Stack for multi-module support has been requested many times before. There is this [ticket][ticket] too. But that's been open for over two years.
+
 ## Licence
 
 [MIT License](LICENSE)
 
 [haskell-stack]: https://haskellstack.org/
+[ticket]: https://github.com/commercialhaskell/stack/issues/2627
