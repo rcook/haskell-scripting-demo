@@ -1,0 +1,3 @@
+#!/bin/bash
+this_dir=$(cd $(dirname $0); pwd -P)
+$this_dir/run $this_dir/src/Goodbye.hs $*

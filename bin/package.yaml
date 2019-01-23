@@ -1,0 +1,10 @@
+name: bin-scripts
+
+library:
+  source-dirs: lib
+  exposed-modules:
+  - Common
+  dependencies:
+  - base >= 4.7 && < 5
+  - directory
+  - filepath

@@ -1,0 +1,8 @@
+#!/bin/bash
+this_dir=$(cd $(dirname $0); pwd -P)
+stack \
+  --stack-yaml=$this_dir/stack.yaml \
+  runghc \
+  --package bin-scripts \
+  -- \
+  $*
